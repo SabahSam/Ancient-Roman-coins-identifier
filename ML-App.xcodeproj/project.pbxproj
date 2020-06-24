@@ -16,6 +16,15 @@
 		9B0594042476057100B384A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0594022476057100B384A9 /* LaunchScreen.storyboard */; };
 		9B05940F2476057100B384A9 /* ML_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05940E2476057100B384A9 /* ML_AppTests.swift */; };
 		9B05941A2476057100B384A9 /* ML_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0594192476057100B384A9 /* ML_AppUITests.swift */; };
+		9B1C655D249D1A36001A69E7 /* CoinsStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C655C249D1A36001A69E7 /* CoinsStreamViewController.swift */; };
+		9B1C655F249D1A96001A69E7 /* RomanCoinsClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C655E249D1A96001A69E7 /* RomanCoinsClassifier1.mlmodel */; };
+		9B1C6561249D1ED6001A69E7 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C6560249D1ED6001A69E7 /* PlacesViewController.swift */; };
+		9B646743247855E60087F18B /* MyImageClassifier 1 Basic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B646742247855E60087F18B /* MyImageClassifier 1 Basic.mlmodel */; };
+		9B980B9A248418AA00B0E5AC /* FoodClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B980B99248418AA00B0E5AC /* FoodClassifier2.mlmodel */; };
+		9B980B9C248418C300B0E5AC /* FoodClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B980B9B248418C300B0E5AC /* FoodClassifier1.mlmodel */; };
+		9B980B9E248425BB00B0E5AC /* CoinsClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B980B9D248425BB00B0E5AC /* CoinsClassifier 1.mlmodel */; };
+		9B980BA02484571C00B0E5AC /* CoinsClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B980B9F2484571C00B0E5AC /* CoinsClassifier2.mlmodel */; };
+		9B980BA224846C2E00B0E5AC /* RomanCoinsImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B980BA124846C2E00B0E5AC /* RomanCoinsImageClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B0593F12476056C00B384A9 /* ML-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0593F12476056C00B384A9 /* Ancient Roman coins identifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ancient Roman coins identifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0593F42476056C00B384A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B0593F62476056C00B384A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B0593F82476056C00B384A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		9B0594152476057100B384A9 /* ML-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ML-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0594192476057100B384A9 /* ML_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_AppUITests.swift; sourceTree = "<group>"; };
 		9B05941B2476057100B384A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1C655C249D1A36001A69E7 /* CoinsStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsStreamViewController.swift; sourceTree = "<group>"; };
+		9B1C655E249D1A96001A69E7 /* RomanCoinsClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RomanCoinsClassifier1.mlmodel; sourceTree = "<group>"; };
+		9B1C6560249D1ED6001A69E7 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		9B646742247855E60087F18B /* MyImageClassifier 1 Basic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyImageClassifier 1 Basic.mlmodel"; sourceTree = "<group>"; };
+		9B980B99248418AA00B0E5AC /* FoodClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FoodClassifier2.mlmodel; sourceTree = "<group>"; };
+		9B980B9B248418C300B0E5AC /* FoodClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FoodClassifier1.mlmodel; sourceTree = "<group>"; };
+		9B980B9D248425BB00B0E5AC /* CoinsClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "CoinsClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		9B980B9F2484571C00B0E5AC /* CoinsClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CoinsClassifier2.mlmodel; sourceTree = "<group>"; };
+		9B980BA124846C2E00B0E5AC /* RomanCoinsImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "RomanCoinsImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +109,7 @@
 		9B0593F22476056C00B384A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B0593F12476056C00B384A9 /* ML-App.app */,
+				9B0593F12476056C00B384A9 /* Ancient Roman coins identifier.app */,
 				9B05940A2476057100B384A9 /* ML-AppTests.xctest */,
 				9B0594152476057100B384A9 /* ML-AppUITests.xctest */,
 			);
@@ -107,8 +125,17 @@
 				9B0593FA2476056C00B384A9 /* Main.storyboard */,
 				9B0594002476057100B384A9 /* Assets.xcassets */,
 				9B0594022476057100B384A9 /* LaunchScreen.storyboard */,
+				9B646742247855E60087F18B /* MyImageClassifier 1 Basic.mlmodel */,
+				9B980B9B248418C300B0E5AC /* FoodClassifier1.mlmodel */,
+				9B980B99248418AA00B0E5AC /* FoodClassifier2.mlmodel */,
+				9B980B9F2484571C00B0E5AC /* CoinsClassifier2.mlmodel */,
+				9B980BA124846C2E00B0E5AC /* RomanCoinsImageClassifier 1.mlmodel */,
+				9B1C655E249D1A96001A69E7 /* RomanCoinsClassifier1.mlmodel */,
 				9B0594052476057100B384A9 /* Info.plist */,
 				9B0593FD2476056C00B384A9 /* ML_App.xcdatamodeld */,
+				9B980B9D248425BB00B0E5AC /* CoinsClassifier 1.mlmodel */,
+				9B1C655C249D1A36001A69E7 /* CoinsStreamViewController.swift */,
+				9B1C6560249D1ED6001A69E7 /* PlacesViewController.swift */,
 			);
 			path = "ML-App";
 			sourceTree = "<group>";
@@ -148,7 +175,7 @@
 			);
 			name = "ML-App";
 			productName = "ML-App";
-			productReference = 9B0593F12476056C00B384A9 /* ML-App.app */;
+			productReference = 9B0593F12476056C00B384A9 /* Ancient Roman coins identifier.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9B0594092476057100B384A9 /* ML-AppTests */ = {
@@ -262,9 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1C655D249D1A36001A69E7 /* CoinsStreamViewController.swift in Sources */,
+				9B1C655F249D1A96001A69E7 /* RomanCoinsClassifier1.mlmodel in Sources */,
+				9B980B9C248418C300B0E5AC /* FoodClassifier1.mlmodel in Sources */,
+				9B980BA224846C2E00B0E5AC /* RomanCoinsImageClassifier 1.mlmodel in Sources */,
 				9B0593FF2476056C00B384A9 /* ML_App.xcdatamodeld in Sources */,
+				9B980B9A248418AA00B0E5AC /* FoodClassifier2.mlmodel in Sources */,
+				9B980BA02484571C00B0E5AC /* CoinsClassifier2.mlmodel in Sources */,
+				9B1C6561249D1ED6001A69E7 /* PlacesViewController.swift in Sources */,
+				9B980B9E248425BB00B0E5AC /* CoinsClassifier 1.mlmodel in Sources */,
 				9B0593F92476056C00B384A9 /* ViewController.swift in Sources */,
 				9B0593F52476056C00B384A9 /* AppDelegate.swift in Sources */,
+				9B646743247855E60087F18B /* MyImageClassifier 1 Basic.mlmodel in Sources */,
 				9B0593F72476056C00B384A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exxeta.help.we.ML-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ancient Roman coins identifier";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +500,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exxeta.help.we.ML-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ancient Roman coins identifier";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
